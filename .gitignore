@@ -1,0 +1,45 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+# Project files
+*.anst.autosave
+*.anst.backup
+cache/
+temp/
+logs/
+
+# Workshop downloads
+workshop/cache/*
+!workshop/cache/.gitkeep
